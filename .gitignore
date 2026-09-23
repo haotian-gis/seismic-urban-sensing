@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and outputs (not redistributed - see README)
+data/
+outputs/
+*.mseed
+*.feather
+*.csv
+*.xml
+*.tif
+*.dat
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
