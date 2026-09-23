@@ -5,11 +5,8 @@ pandas>=1.5,<3
 pyarrow          # Feather I/O
 obspy
 joblib
-matplotlib
-seaborn
 geopandas
 shapely
-contextily
 pymongo          # SafeGraph weekly patterns stored in MongoDB
-# GDAL is only needed for scripts/10_snow_depth.py; install via conda:
+# GDAL is only needed for environment.snow_depth_mean(); install via conda:
 #   conda install -c conda-forge gdal

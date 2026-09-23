@@ -13,7 +13,7 @@ from pathlib import Path
 # -----------------------------------------------------------------------------
 REPO_ROOT = Path(__file__).resolve().parent
 DATA_ROOT = Path(os.environ.get("SEISMIC_DATA_ROOT", REPO_ROOT / "data"))
-FIG_DIR = Path(os.environ.get("SEISMIC_FIG_DIR", REPO_ROOT / "outputs" / "figures"))
+OUTPUT_DIR = Path(os.environ.get("SEISMIC_OUTPUT_DIR", REPO_ROOT / "outputs"))  # analysis result tables
 
 # Seismic data (IRIS FDSN)
 WAVEFORM_DIR = DATA_ROOT / "waveforms"            # raw MiniSEED
@@ -70,6 +70,11 @@ N_JOBS = int(os.environ.get("N_JOBS", 24))
 
 # Human-activity frequency band used throughout the paper
 HUMAN_BAND = (2.0, 20.0)
+
+# Sensitivity analysis
+BUFFER_RADII_M = list(range(500, 10500, 500))   # 0.5-10 km
+DEFAULT_BUFFER_M = 5000
+SLIDING_BANDS = [(lo, lo + 2) for lo in range(1, 39)]  # 1-3 Hz ... 38-40 Hz
 
 # Station groups
 URBAN_STATIONS = ["TX.FW01.00.HH", "TX.FW04.00.HH", "TX.FW05.00.HH",

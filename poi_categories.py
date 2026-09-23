@@ -1,8 +1,8 @@
 """SafeGraph ``top_category`` groupings used in the analysis.
 
 Two schemes are used:
-* ``ACTIVITY_GROUPS`` - 5 groups used for the hourly visit series (scripts/06).
-* ``FUNCTIONAL_GROUPS`` - 6 functional groups for POI composition (Table S1, scripts/09).
+* ``ACTIVITY_GROUPS`` - 5 groups used for the hourly visit series (mobility.hourly_visits_by_category).
+* ``FUNCTIONAL_GROUPS`` - 6 functional groups for POI composition (Table S1, mobility.poi_composition).
 """
 # --- activity groups (hourly visit series) ---
 RESTAURANT = [
