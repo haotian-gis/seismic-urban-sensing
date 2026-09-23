@@ -2,6 +2,10 @@
 
 **Using ambient seismic noise to sense disruptions to human activity during extreme weather events**
 
+Code for the paper published in [*Computers, Environment and Urban Systems* 127 (2026) 102441](https://doi.org/10.1016/j.compenvurbsys.2026.102441).
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.compenvurbsys.2026.102441-blue)](https://doi.org/10.1016/j.compenvurbsys.2026.102441)
+
 <p align="center">
   <img src="docs/images/graphical_abstract.jpg" width="100%" alt="Graphical abstract">
 </p>
@@ -144,7 +148,21 @@ The data are **not** redistributed here. The expected file names are listed in `
 
 ## Citation
 
-The manuscript is currently under review. The citation will be added after publication.
+If you use this code, please cite:
+
+> Tian, H., Cai, H., Chen, X., Mohammadi Ghanatghestani, A., & Arthur, L. (2026). From seismic signals to urban sensing: Leveraging ambient seismic noise to sense human activity disruptions in extreme weather events. *Computers, Environment and Urban Systems*, 127, 102441. https://doi.org/10.1016/j.compenvurbsys.2026.102441
+
+```bibtex
+@article{tian2026seismic,
+  title   = {From seismic signals to urban sensing: Leveraging ambient seismic noise to sense human activity disruptions in extreme weather events},
+  author  = {Tian, Hao and Cai, Heng and Chen, Xiaowei and Mohammadi Ghanatghestani, Ahmad and Arthur, Lawrence},
+  journal = {Computers, Environment and Urban Systems},
+  volume  = {127},
+  pages   = {102441},
+  year    = {2026},
+  doi     = {10.1016/j.compenvurbsys.2026.102441}
+}
+```
 
 ## License
 
